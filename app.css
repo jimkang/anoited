@@ -32,13 +32,10 @@ ul {
 }
 
 .media {
-  width: 30rem;
-  max-width: 800px;
   min-width: 20rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  order: 2;
 }
 
 .media-list {
@@ -47,7 +44,6 @@ ul {
 }
 
 li.pane {
-  max-width: 800px;
   border-radius: 8px;
   margin-bottom: 2em;
   background-color: hsl(35, 10%, 91%);
@@ -69,7 +65,7 @@ li.pane:only-child {
 
 .pane img {
   width: 100%;
-  object-fit: contain;
+  image-rendering: pixelated;
   border-radius: 4px;
 }
 
