@@ -14,7 +14,7 @@ module.exports = {
     <a href="https://smidgeo.com/notes/deathmtn/">deathmtn</a>
     </div>
     `,
-    headerExtraHTML: `<div>These are posts about my tourist-style expeditions into <a href="https://noitagame.com/">Noita</a>. I'm not good at the game, but I really enjoy seeing weird things and dying in wacky and varied ways.`,
+    headerExtraHTML: `<div class="intro">These are posts about my tourist-style expeditions into <a href="https://noitagame.com/">Noita</a>. I'm not good at the game, but I really enjoy seeing weird things and dying in wacky and varied ways.`,
     generateRSS: true,
     archiveBaseURL: "https://smidgeo.com/anoited",
     mediaDir: "https://smidgeo.com/notes/deathmtn/media",
