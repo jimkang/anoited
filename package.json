@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "static-web-pick": "^1.0.4"
+    "static-web-pick": "^1.1.0"
   }
 }

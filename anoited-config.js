@@ -22,5 +22,6 @@ module.exports = {
       feed_url: "https://smidgeo.com/anoited/rss/index.rss",
       site_url: "https://smidgeo.com/anoited/",
     },
+    rssPostingDelay: 1000
   },
 };
