@@ -15,6 +15,7 @@ pushall: sync push-css run-remote
 
 run-remote:
 	$(SSHCMD) "rm -f $(WEBDIR)/meta/*"
+	$(SSHCMD) "cd $(APPDIR) && cp app.css $(WEBDIR)"
 	$(SSHCMD) "cd $(APPDIR) && $(swpick) $(APPDIR)/anoited-config.js $(METADIR) $(APPDIR)/ids.json"
 
 set-up-web-dir:
